@@ -1,4 +1,5 @@
 <template>
+  <Hero />
 </template>
 
 <script lang="ts">
