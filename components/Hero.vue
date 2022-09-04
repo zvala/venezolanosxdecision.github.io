@@ -9,7 +9,7 @@
 
 <style scoped>
 section {
-  background-image: url("/rsw_1300h_800-12.jpg");
+  background-image: url("~/static/rsw_1300h_800-12.jpg");
   background-size: cover;
   background-position: center;
   min-height: 100vh;
