@@ -19,6 +19,5 @@
 
 <style scoped>
 section {
-  background-color: red;
 }
 </style>
