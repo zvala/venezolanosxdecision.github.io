@@ -1,11 +1,20 @@
 <template>
   <header>
-    <img src="" alt="logo" />
+    <NuxtLink to="/"><img src="" alt="logo" /></NuxtLink>
     <nav>
       <ul>
-        <li>Nosotros</li>
-        <li>Donaciones & Actividades</li>
-        <li>Contacto</li>
+        <li>
+          <NuxtLink to="/nosotros">Nosotros</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/nosotros">Donaciones & Actividades</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/nosotros">Contacto</NuxtLink>
+        </li>
+        <li>
+          <Donate />
+        </li>
       </ul>
     </nav>
   </header>

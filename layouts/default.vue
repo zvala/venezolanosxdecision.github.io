@@ -5,5 +5,6 @@
       <Nuxt />
     </main>
     <Footer />
+    <CookieBanner />
   </div>
 </template>

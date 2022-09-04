@@ -1,27 +1,18 @@
 <template>
-  <h1>
+  <p>
     <slot></slot>
-  </h1>
+  </p>
 </template>
 
 <script>
 export default {
-  name: "title",
-  props: ["text"],
+  name: "paragraph",
 };
 </script>
 
 <style scoped>
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+p {
   font-family: "Open Sans", sans-serif;
 }
-
-h1 {
-  font-size: 72px;
-}
 </style>
+

@@ -1,7 +1,7 @@
 <template>
   <section>
-    <div>
-      <Title>Fundación Venezolanos por Decisión</Title>
+    <div class="container">
+      <h1>Fundación Venezolanos por Decisión</h1>
       <a href=""></a>
     </div>
   </section>
